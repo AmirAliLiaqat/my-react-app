@@ -20,16 +20,16 @@ const App = () => {
       {/* <RegisterForm/> */}
       {/* <Weather/> */}
      
-      {/* <MyNavbar/>
+      <MyNavbar/>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
-      <Footer/> */}
+      <Footer/>
 
-      <Testing/>
+      {/* <Testing/> */}
     </>
   )
 }
