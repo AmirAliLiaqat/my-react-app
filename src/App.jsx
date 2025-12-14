@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import MyNavbar from "./components/MyNavbar";
 import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
+import Testing from "./components/Testing";
 
 const App = () => {
   return (
@@ -19,14 +20,16 @@ const App = () => {
       {/* <RegisterForm/> */}
       {/* <Weather/> */}
      
-      <MyNavbar/>
+      {/* <MyNavbar/>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
-      <Footer/>
+      <Footer/> */}
+
+      <Testing/>
     </>
   )
 }
